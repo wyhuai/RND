@@ -104,3 +104,7 @@ class RND_cs(torch.nn.Module):
         x = Ap(y) + x - Ap(A(x))
         return x
 ```
+
+## Discussion
+When applied to small networks (e.g., ESRGAN) or complex dataset (e.g., DIV2K), RND may not bring significant improvement. Our method actually implies an assumption, that is, the network is "powerful" enough in generative performance. The "power" of the network is determined by the dataset and the network itself. For single-class datasets like the human faces, the data distribution is relatively easy to learn.
+
