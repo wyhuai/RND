@@ -54,14 +54,15 @@ You may try any sr_backbone. For the backbones used in this paper, you may refer
 import torch
 
 def color2gray(x):
-    coef=1/3
-    x = x[:,0,:,:]*coef + x[:,1,:,:]*coef + x[:,2,:,:]*coef
+    coef_r, coef_g, coef_b = 1/3, 1/3, 1/3
+    x = x[:,0,:,:]*coef_r + x[:,1,:,:]*coef_g + x[:,2,:,:]*coef_b
     return x.repeat(1,3,1,1)
 
 def gray2color(x):
-    coef=1/3
+    coef_r, coef_g, coef_b = 1/3, 1/3, 1/3
     x = x[:,0,:,:]
-    return torch.stack((x*coef/1, x*coef/1, x*coef/1), 1)    
+    base = coef_r**2 + coef_g**2 + coef_b**2
+    return torch.stack((x*coef_r/base, x*coef_g/base, x*coef_b/base), 1)    
 
 class RND_colorization(torch.nn.Module):
     def __init__(self, backbone):
