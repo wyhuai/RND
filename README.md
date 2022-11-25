@@ -7,7 +7,7 @@ The range-null space decomposition can improve the data consistency significantl
 ## How To Use Range-Null Space Decomposition In Your Image Restoration Tasks?
 Since our method is independent to the choice of networks, it is queit **simple to apply our method to your own networks**😊. 
 
-### Range-Null Space Decomposition (RND) on SR tasks
+### Range-Null Space Decomposition (RND) for SR🔥
 Let's take image SR task for example. Given an input LR image $\mathbf{y}$, one may uses a network $\mathcal{D}(\cdot)$ to yield the SR result, i.e.,
 
 > $\mathbf{x}_{r}=\mathcal{D}(\mathbf{y})$
@@ -48,7 +48,7 @@ class RND_sr(torch.nn.Module):
 ```
 You may try any sr_backbone. For the backbones used in this paper, you may refer to [GLEAN](https://github.com/open-mmlab/mmediting/blob/master/configs/restorers/glean/README.md) and [Panini](https://github.com/jianzhangcs/panini).
 
-### RND on Image Colorization Tasks
+### RND for Image Colorization ⭐
 
 ```python
 import torch
@@ -76,7 +76,7 @@ class RND_colorization(torch.nn.Module):
         return x
 ```
 
-### RND on Image Compressed Sensing Tasks
+### RND for Compressed Sensing ⭐
 
 ```python
 import torch
