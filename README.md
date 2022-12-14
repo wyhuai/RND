@@ -1,5 +1,8 @@
-# RND
-## GAN Prior based Null-Space Learning for Consistent Super-Resolution [AAAI 2023] 
+# GAN Prior based Null-Space Learning for Consistent Super-Resolution [AAAI 2023] 
+## 📖[**Paper**](https://arxiv.org/abs/2211.13524)
+
+[Yinhuai Wang](https://wyhuai.github.io/info/), Yujie Hu, [Jiwen Yu](https://scholar.google.com.hk/citations?user=uoRPLHIAAAAJ), [Jian Zhang](https://jianzhang.tech/)  
+Peking University and PCL  
 
 ![image](https://user-images.githubusercontent.com/95485229/203699143-7d73ab43-7e40-4cdb-9cd1-d4293181f223.png)
 The range-null space decomposition can improve the data consistency significantly. 
