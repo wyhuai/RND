@@ -1,4 +1,4 @@
-# GAN Prior based Null-Space Learning for Consistent Super-Resolution [AAAI 2023] 
+# GAN Prior based Null-Space Learning for Consistent Super-Resolution [AAAI 2023 Oral] 
 ## 📖[**Paper**](https://arxiv.org/abs/2211.13524)
 
 [Yinhuai Wang](https://wyhuai.github.io/info/), Yujie Hu, [Jiwen Yu](https://scholar.google.com.hk/citations?user=uoRPLHIAAAAJ), [Jian Zhang](https://jianzhang.tech/)  
