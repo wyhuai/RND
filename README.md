@@ -7,6 +7,9 @@ Peking University and PCL
 ![image](https://user-images.githubusercontent.com/95485229/203699143-7d73ab43-7e40-4cdb-9cd1-d4293181f223.png)
 The range-null space decomposition can improve the data consistency significantly. 
 
+## 🧩News
+Check our follow-up work [DDNM](https://github.com/wyhuai/DDNM).
+
 ## How To Use Range-Null Space Decomposition In Your Image Restoration Tasks?
 Since our method is independent to the choice of networks, it is queit **simple to apply our method to your own networks**😊. 
 
